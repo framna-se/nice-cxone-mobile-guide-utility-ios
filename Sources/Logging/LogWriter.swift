@@ -14,10 +14,8 @@
 //
 
 import Foundation
-import Mockable
 
 /// Write messages to a log.
-@Mockable
 public protocol LogWriter: Sendable {
 
     /// Write a message to this log
